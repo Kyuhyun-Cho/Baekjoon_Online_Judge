@@ -1,6 +1,6 @@
 #include <iostream>
 
-using namespace std;
+using namespace std; 
 
 int main() {
     ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
@@ -22,3 +22,6 @@ int main() {
     }
     cout << cnt << '\n';
 }
+
+// 숫자 자릿수 추출 문제 -> String 변환 X
+//                  -> 나누기를 통한 자릿수 추출!
